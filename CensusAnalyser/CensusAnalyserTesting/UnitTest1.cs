@@ -2,7 +2,7 @@ namespace CensusAnalyserTesting
 {
     public class Tests
     {
-        /*[Test]
+        [Test]
         public void GivenStatesCensusCSVFile_CheckNumberOfRecordsMatches()
         {
             int expected = 29;
@@ -74,7 +74,7 @@ namespace CensusAnalyserTesting
             {
                 Assert.AreEqual("Incorrect Header", ex.Message);
             }
-        }*/
+        }
         [Test]
         public void GivenStatesCodeCSVFile_CheckNumberOfRecordsMatches()
         {
